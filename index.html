@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body></body>
+  <head>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <header>
+    <h1>ShopCo</h1>
+  </header>
+  <body>
+    <div class="subtitles">
+      <h2>How was your shopping experience with us today?</h2>
+      <p>Let us know to be in with the chance to win our £100 prize draw!</p>
+    </div>
+    <form>
+      <label>Ease of use</label><br>
+        <button onclick="app.run(toggleEase(0))" class="fa fa-star"></button>
+        <button class="fa fa-star checked"></button>
+        <button class="fa fa-star checked"></button>
+        <button class="fa fa-star unchecked"></button>
+        <button class="fa fa-star unchecked"></button><br>
+      <label>Item Range</label><br>
+        <button class="fa fa-star checked"></button>
+        <button class="fa fa-star checked"></button>
+        <button class="fa fa-star checked"></button>
+        <button class="fa fa-star unchecked"></button>
+        <button class="fa fa-star unchecked"></button><br>
+      <label>Would you recommend Shop Co to a friend?</label><br>
+      <label for="feedbackBox">Please feel free to add any extra comments below</label><br>
+      <textarea type="text" id="feedbackBox" rows="10" cols="30"></textarea><br>
+      <button type="sumbmit"> Submit </button>
+    </form>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/apprun/dist/apprun-html.js"></script>
+  </body>
   <footer></footer>
 </html>

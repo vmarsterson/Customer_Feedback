@@ -1,0 +1,20 @@
+h1 {
+  font-size: 2rem;
+}
+
+.checked {
+  color: yellow;
+}
+
+.unchecked {
+  color: grey;
+}
+
+.starhover {
+  color: pink;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
