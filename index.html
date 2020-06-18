@@ -8,33 +8,32 @@
     />
   </head>
   <header>
-    <h1>ShopCo</h1>
+    <img src="Banner.png">
   </header>
   <body>
     <div class="subtitles">
-      <h2>How was your shopping experience with us today?</h2>
+      <h1>How was your shopping experience with us today?</h2>
       <p>Let us know to be in with the chance to win our £100 prize draw!</p>
     </div>
     <form>
-      <label>Ease of use</label><br>
-        <button onclick="app.run(toggleEase(0))" class="fa fa-star"></button>
+      <label>Ease of use</label><br><br>
+        <button onclick="app.run(toggleEase(0))" class="fa fa-star checked"></button>
         <button class="fa fa-star checked"></button>
         <button class="fa fa-star checked"></button>
         <button class="fa fa-star unchecked"></button>
-        <button class="fa fa-star unchecked"></button><br>
-      <label>Item Range</label><br>
+        <button class="fa fa-star unchecked"></button><br><br>
+      <label>Item Range</label><br><br>
         <button class="fa fa-star checked"></button>
         <button class="fa fa-star checked"></button>
         <button class="fa fa-star checked"></button>
         <button class="fa fa-star unchecked"></button>
-        <button class="fa fa-star unchecked"></button><br>
-      <label>Would you recommend Shop Co to a friend?</label><br>
-      <label for="feedbackBox">Please feel free to add any extra comments below</label><br>
+        <button class="fa fa-star unchecked"></button><br><br>
+      <label>Would you recommend Shop Co to a friend?</label><br><br>
+      <label for="feedbackBox">Please feel free to add any extra comments below</label><br><br>
       <textarea type="text" id="feedbackBox" rows="10" cols="30"></textarea><br>
-      <button type="sumbmit"> Submit </button>
+      <button class="submitButton" type="submit"> Submit </button>
     </form>
     <script src="app.js"></script>
     <script src="https://unpkg.com/apprun/dist/apprun-html.js"></script>
   </body>
-  <footer></footer>
 </html>

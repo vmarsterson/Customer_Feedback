@@ -5,14 +5,12 @@ const state = {
 };
 
 const update = {
-    toggleEase: function(cellIndex){ 
-        ease[cellIndex] === !ease[cellIndex]
-        console.log(ease[cellIndex])
+    toggleEase: function(state,cellIndex){ 
+        state.ease[cellIndex] = !state.ease[cellIndex]
+        console.log(state.ease)
     },
 
     toggleRange: function(cellIndex){
 
     } ,
 }
-
-window.app.start("app", state, update)
